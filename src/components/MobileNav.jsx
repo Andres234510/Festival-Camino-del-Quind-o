@@ -15,7 +15,7 @@ export const MobileNav = () => {
 
   return (
     <nav className="bg-orange-200 bottom-4 mx-auto max-w-2xl px-14 flex items-center h-36">
-      <img className='logo' src="src/assets/placeholder.png" alt="Logo" />
+      <img className='logo' src="/placeholder.png" alt="Logo" />
       <div className="flex justify-between items-center ">
         {items.map((it) => (
           <button

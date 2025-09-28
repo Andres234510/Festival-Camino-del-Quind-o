@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUI } from '../context/UIContext';
+import placeholderImg from '../assets/placeholder.png';; 
 
 export const MobileNav = () => {
   const navigate = useNavigate();
@@ -15,7 +16,7 @@ export const MobileNav = () => {
 
   return (
     <nav className="bg-orange-200 bottom-4 mx-auto max-w-2xl px-14 flex items-center h-36">
-      <img className='logo' src="/placeholder.png" alt="Logo" />
+      <img className='logo' src={placeholderImg} alt="Logo" />
       <div className="flex justify-between items-center ">
         {items.map((it) => (
           <button

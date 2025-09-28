@@ -111,3 +111,75 @@ textarea { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe U
   border-radius: 10px;
   font-weight: bold;
 }
+
+.service-card {
+  width: 280px; /* Un poco más ancha */
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+  margin: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease; /* Efecto al pasar el ratón */
+}
+
+/* Efecto visual al pasar el ratón */
+.service-card:hover {
+  transform: translateY(-5px); 
+}
+
+.card-image-container {
+  width: 100%;
+  height: 180px; /* Altura del área de la imagen (el antiguo espacio verde) */
+  background-color: #2ECC71; /* Color verde de fondo */
+  overflow: hidden;
+  display: flex; /* Para centrar la imagen si es necesario */
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+  background-color: #E67E22; /* Color naranja de la sección inferior */
+  color: #fff;
+  min-height: 100px;
+  text-align: left;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.3em;
+}
+
+.card-content p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.services-section-container {
+  padding: 40px 20px;
+  background-color: #fcf8e8; /* Color crema suave */
+  text-align: center;
+}
+
+.services-section-container h2 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; /* Espacio más grande entre las tarjetas */
+}

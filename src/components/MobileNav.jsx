@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUI } from '../context/UIContext';
-import placeholderImg from '../assets/placeholder.png';; 
+import placeholderImg from '/placeholder.png';; 
 
 export const MobileNav = () => {
   const navigate = useNavigate();

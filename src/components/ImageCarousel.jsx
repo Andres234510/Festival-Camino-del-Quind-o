@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import placeholderImg from '../assets/placeholder.png';; 
 
 const cardData = [
-  {id: 1, src: '/placeholder.png', alt: ''}, 
-  {id: 2, src: '/placeholder.png', alt: ''}, 
-  {id: 3, src: '/placeholder.png', alt: ''},
-  {id: 4, src: '/placeholder.png', alt: ''},
-  {id: 5, src: '/placeholder.png', alt: ''},
-  {id: 6, src: '/placeholder.png', alt: ''},
-  {id: 7, src: '/placeholder.png', alt: ''}
+  {id: 1, src: {placeholderImg}, alt: ''}, 
+  {id: 2, src: {placeholderImg}, alt: ''}, 
+  {id: 3, src: {placeholderImg}, alt: ''},
+  {id: 4, src: {placeholderImg}, alt: ''},
+  {id: 5, src: {placeholderImg}, alt: ''},
+  {id: 6, src: {placeholderImg}, alt: ''},
+  {id: 7, src: {placeholderImg}, alt: ''}
 ];
 
 const ImageCarousel = () => {

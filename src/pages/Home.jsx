@@ -3,7 +3,6 @@ import React from 'react';
 import { Hero } from '../components/Hero';
 import { MissionVision } from '../components/MissionVision';
 import { Card } from '../components/Card';
-import { PortfolioGrid } from '../components/PortfolioGrid';
 import { useUI } from '../context/UIContext';
 
 const Home = () => {
@@ -28,11 +27,6 @@ const Home = () => {
         <MissionVision />
       </section>
 
-      <section className="mt-4">
-        <h3 className="text-sm font-semibold mb-2">Portafolio</h3>
-        {/* PortfolioGrid usa props.projects y maneja el map internamente */}
-        <PortfolioGrid projects={featured} />
-      </section>
 
       <section className="mt-4">
         <Card title="Sobre el prototipo">

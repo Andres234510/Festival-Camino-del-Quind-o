@@ -183,3 +183,19 @@ textarea { font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe U
   justify-content: center; 
   gap: 30px; /* Espacio más grande entre las tarjetas */
 }
+
+/* ServiceCard.css - Añade esto al final de tu archivo */
+
+.video-card {
+    /* Si quieres un estilo sutilmente diferente para los videos */
+}
+
+.video-container {
+    padding: 0; /* Asegura que no haya padding en el iframe */
+    background-color: #000; /* Fondo negro para videos */
+}
+
+.card-video {
+    display: block;
+    /* Para que el iframe ocupe el 100% del contenedor padre */
+}

@@ -1,3 +1,5 @@
+// ServicesSection.jsx
+
 import React from 'react';
 import ServiceCard from './ServiceCard';
 
@@ -9,31 +11,32 @@ const ServicesSection = () => {
         <ServiceCard
           title="Desarrollado por:"
           description="..."
-          imageUrl="public/images/IMG_6442.JPG"
+          // ¡Ruta corregida! La imagen se busca en la raíz del servidor.
+          imageUrl="/images/IMG_6442.JPG" 
           imageAlt="Icono de desarrollo web"
         />
         <ServiceCard
           title="Desarrollado por:"
           description="..."
-          imageUrl="public/images/IMG_6467.JPG"
+          imageUrl="/images/IMG_6467.JPG"
           imageAlt="Icono de diseño UX"
         />
         <ServiceCard
           title="Desarrollado por:"
           description="..."
-          imageUrl="public/images/IMG_6495.JPG"
+          imageUrl="/images/IMG_6495.JPG"
           imageAlt="Icono de consultoría"
         />
         <ServiceCard
           title="Desarrollado por:"
           description="..."
-          imageUrl="public/images/IMG_6504.JPG"
+          imageUrl="/images/IMG_6504.JPG"
           imageAlt="Icono de marketing digital"
         />
         <ServiceCard
           title="Desarrollado por:"
           description="..."
-          imageUrl="public/images/IMG_6596.JPG"
+          imageUrl="/images/IMG_6596.JPG"
           imageAlt="Icono de marketing digital"
         />
       </div>
